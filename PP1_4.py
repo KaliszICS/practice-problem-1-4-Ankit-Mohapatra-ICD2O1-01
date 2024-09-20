@@ -5,21 +5,20 @@ def q1():
   print(people)
 
 def q2():
-  name = input("input your first name:")
-  print(f"hello {name}")
+  print("Hello " + input("Input your first name: "))
 
 def q3():
-  FirstName = input("Input Your First Name :")
-  LastName = input("Input Your Last Name :")
-  print(f"hello {FirstName} {LastName}")
+  firstName = input("Input your first name: ")
+  lastName = input("Input your last name: ")
+  print(f"{lastName} {firstName}")
 def q4():
-  Student1 = input("input a student: ")
-  Student2 = input("input another sutdent: ")
-  print(f" Your students are {Student1} and {Student2}.")
+  student1 = input("Input a student: ")
+  student2 = input("Input another student: ")
+  print(f"Your students are {student1} and {student2}")
 
 #Do not edit code below this comment
 
-#q1()
-#q2()
-#q3()
-#q4()
+q1()
+q2()
+q3()
+q4()
